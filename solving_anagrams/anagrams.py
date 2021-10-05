@@ -2,6 +2,7 @@
 from load_dictionary import load
 
 def find_anagram():
+    """find anagrams of user input word from a dictionary file."""
     # load digital dictionary file as a list of words
     word_list = load('dictionary.txt')
     # accept a word from user
